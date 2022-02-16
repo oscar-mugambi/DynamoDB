@@ -5,4 +5,4 @@ What is a dynamo DB stream
 3. Events can carry the content of the rows being modified. You can also be shown the before and after for diffing purposes.
 4. Events are guaranteed to be in the same order the modification took place.
 5. Unlocks powerful use cases eg  
-    i) Real Time Dashboards
+    i) Real Time Dashboards. Hook up a lambda to your dynamo DB streams. Every time an event occurs you have a lambda that gets invoked. The lambdas arguments are the contents of the change that ocurred. 
