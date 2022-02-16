@@ -1,2 +1,4 @@
-What is dynamo DB 
+What is a dynamo DB stream 
+
+Its a feature that emits events when record modifications occur on a DynamoDB table
 
